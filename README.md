@@ -14,7 +14,7 @@ A modern and responsive personal portfolio website built to showcase my projects
     - **🔐 Decentralized Certificate Issuance**: Blockchain-based security system.
     - **📋 Project Management System**: Full-stack Spring Boot & MongoDB backend.
     - **🕵️ Image Steganography**: Computer Vision based covert encryption using OpenCV.
-    - **🎮 Tic-Tac-Toe AI**: Java-based game applying high-level OOP design patterns.
+    - **🚨 RCPL Alerting System**: Real-time Zeebe workflow monitoring and Slack integration.
 - **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
 
 ## 🛠️ Tech Stack
@@ -26,8 +26,8 @@ A modern and responsive personal portfolio website built to showcase my projects
 ## �️ Technical Core Competencies
 
 ### 🏗️ Backend Architecture & Engineering
-- **Advanced Java Development**: Proficient in core Java and modern frameworks (Spring Boot, Spring MVC).
-- **Relational & NoSQL Databases**: Hands-on experience with MySQL (JDBC/Hibernate) and MongoDB for scalable data storage.
+- **Advanced Java & .NET Development**: Proficient in Spring Boot, Spring MVC, and **ASP.NET Core Web API**.
+- **Relational & NoSQL Databases**: Hands-on experience with MySQL (JDBC/Hibernate, Oracle SQL) and MongoDB for scalable data storage.
 - **RESTful API Design**: Building secure, performant backends with centralized exception handling and DTO patterns.
 - **System Monitoring**: Production monitoring and failure detection using **Grafana** and custom **Zeebe** integrations.
 
