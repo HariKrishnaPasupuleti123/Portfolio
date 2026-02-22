@@ -20,7 +20,7 @@ const skills = [
     category: 'Database',
     icon: '🗄️',
     iconClass: 'database',
-    items: ['MySQL', 'MongoDB'],
+    items: ['MySQL', 'MongoDB', 'Oracle SQL'],
   },
   {
     category: 'Tools & Cloud',
@@ -41,11 +41,9 @@ const skills = [
     items: ['MySQL Workbench', 'MongoDB Compass', 'TablePlus'],
   },
   {
-    category: 'AI-Assisted Development',
+    category: 'Ai driven development',
     icon: '🤖',
     iconClass: 'ai',
-    featured: true,
-    desc: 'Experienced in leveraging AI tools to accelerate development cycles, automate code review, debug faster, and ship higher-quality software.',
     items: ['GitHub Copilot', 'ChatGPT', 'Claude (Anthropic)', 'Google Gemini', 'OpenAI Codex', 'Cursor AI', 'Antigravity AI'],
   },
 ]
@@ -207,7 +205,7 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      <span className="nav-logo">HK.</span>
+      <span className="nav-logo">HK</span>
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
         {links.map(([id, label]) => (
           <li key={id}>
@@ -413,19 +411,15 @@ function Skills() {
       <SectionHeader tag="// what i know" title="Skills & Technologies" />
       <div className="skills-grid">
         {skills.map((cat, i) => (
-          <FadeIn key={i} className={cat.featured ? 'skills-featured-wrap' : ''}>
-            <div className={`skill-category ${cat.featured ? 'skill-featured' : ''}`}>
+          <FadeIn key={i}>
+            <div className="skill-category">
               <div className="skill-cat-header">
                 <div className={`skill-cat-icon ${cat.iconClass}`}>{cat.icon}</div>
-                <div>
-                  <div className="skill-cat-title">{cat.category}</div>
-                  {cat.featured && <div className="skill-cat-badge">Practical Hands-On Experience</div>}
-                </div>
+                <div className="skill-cat-title">{cat.category}</div>
               </div>
-              {cat.desc && <p className="skill-cat-desc">{cat.desc}</p>}
               <div className="skill-tags">
                 {cat.items.map((item) => (
-                  <span className={`skill-tag ${cat.featured ? 'skill-tag-ai' : ''}`} key={item}>
+                  <span className="skill-tag" key={item}>
                     {item}
                   </span>
                 ))}
