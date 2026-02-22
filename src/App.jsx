@@ -109,10 +109,10 @@ const projects = [
     tech: ['Python', 'OpenCV', 'Steganography', 'Cryptography', 'Image Processing'],
   },
   {
-    title: 'Tic-Tac-Toe Game with AI Opponent (Java)',
-    icon: '🎮',
-    desc: 'Designed and built a fully object-oriented Tic-Tac-Toe game in Java applying core OOP principles — abstraction, inheritance, and polymorphism. Architected using an abstract Player base class extended by HumanPlayer and AiPlayer, enabling clean separation of concerns and scalable game logic. Implemented complete win-condition detection across rows, columns, and diagonals, alongside a draw-state handler. Supports dual modes: Human vs AI and Two-Player, with an AI engine capable of making autonomous valid moves — laying the groundwork for Minimax-based intelligent AI enhancements.',
-    tech: ['Java', 'Object Oriented Programming', 'Game AI', 'Data Structures and Algorithms'],
+    title: 'RCPL Workflow Failure Alerting System',
+    icon: '🚨',
+    desc: 'Engineered a production-grade real-time failure monitoring system for RCPL loan onboarding workflows using Camunda Zeebe. Automated the detection of failed jobs and exhausted retries, implementing context-rich Slack notifications with direct debugging links and process metadata. This solution significantly reduces the time taken to identify and resolve workflow failures by eliminating manual log inspection and providing instant operational visibility.',
+    tech: ['Java', 'Spring Boot', 'Camunda Zeebe', 'Slack API', 'RESTful API'],
   },
 ]
 
