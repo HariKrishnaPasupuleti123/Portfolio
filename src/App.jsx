@@ -94,13 +94,13 @@ const projects = [
     title: 'Decentralized Certificate Issuance & Validation',
     icon: '🔐',
     desc: 'Developed a secure system for generating and verifying digital certificates using blockchain technology and machine learning for enhanced security. Built a decentralized application (DApp) with secure storage mechanisms to enable real-time certificate issuance and validation.',
-    tech: ['Python', 'Streamlit', 'Web3.js', 'Ganache', 'MySQL'],
+    tech: ['Blockchain', 'Python', 'Streamlit', 'Web3.js', 'Ganache', 'MySQL'],
   },
   {
     title: 'Project Management System (Backend)',
     icon: '📋',
     desc: 'Built a RESTful backend with Controller–Service–Repository architecture, implementing full CRUD, DTOs, and centralized exception handling. Integrated MongoDB using Spring Data and added unit tests using JUnit & Mockito, improving maintainability.',
-    tech: ['Spring Boot', 'MongoDB', 'Maven', 'JUnit', 'Mockito', 'Git'],
+    tech: ['Java', 'MVC Architecture', 'RESTful API', 'Spring Boot', 'MongoDB', 'JUnit', 'Mockito'],
   },
   {
     title: 'Image Steganography — Covert Message Encryption',
